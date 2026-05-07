@@ -82,19 +82,17 @@ using a population size of **8**, **4 mating parents**, and a mutation rate of *
 
 <br>
 
+<p align="center">
+  <img src="assets/eval_target.png" width="35%"/>
+  &nbsp;
+  <img src="assets/eval_reconstruction.png" width="35%"/>
+</p>
+<p align="center">
+  <sub>
+    Target image (left) and reconstructed output after 300,000 generations (right).
+  </sub>
+</p>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="assets/eval_target.png" width="320"/><br>
-      <sub>Target Image</sub>
-    </td>
-    <td align="center">
-      <img src="assets/eval_reconstruction.png" width="320"/><br>
-      <sub>Reconstructed Output (Generation 300,000)</sub><br>
-    </td>
-  </tr>
-</table>
 <br />
 The substantial improvement in SSIM over the random baseline demonstrates that the framework
 successfully recovers coherent structural and colour patterns rather than converging toward noise.
