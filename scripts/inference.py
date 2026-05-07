@@ -16,7 +16,7 @@ project_root = os.path.join(current_dir, "..")
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-import image_parameters  # noqa: E402
+from scripts import image_parameters  # noqa: E402
 from model import genetic_model  # noqa: E402
 
 
@@ -92,8 +92,22 @@ def inference(image_path="data/raw/fruit.jpg", output_folder="data/processed", d
         display_side_by_side(image_path, final_image_path)
 
 if __name__ == "__main__":
+    import argparse
+    parser = argparse.ArgumentParser(description="Run GA reconstruction from the CLI.")
+    parser.add_argument(
+        "image_path",
+        nargs="?",
+        default=os.path.join("data", "raw", "test.png"),
+        help="Path to the input image (default: data/raw/test.png)",
+    )
+    parser.add_argument(
+        "--no-display",
+        action="store_true",
+        help="Skip the matplotlib side-by-side display at the end",
+    )
+    args = parser.parse_args()
     inference(
-        image_path="data/raw/test.png",
+        image_path=args.image_path,
         output_folder="data/processed",
-        display=True
+        display=not args.no_display,
     )

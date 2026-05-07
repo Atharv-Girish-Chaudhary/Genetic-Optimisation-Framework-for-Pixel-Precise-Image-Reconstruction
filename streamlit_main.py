@@ -145,7 +145,7 @@ if uploaded_file is not None:
                         caption=f"Latest Checkpoint: {os.path.basename(latest_checkpoint)}",
                         use_container_width=False
                     )
-                progress_placeholder.text("Processing... (checkpoints will update as they are generated)")
+                # progress_placeholder.text("Processing... (checkpoints will update as they are generated)")
                 time.sleep(2)
             
             ga_thread.join()
