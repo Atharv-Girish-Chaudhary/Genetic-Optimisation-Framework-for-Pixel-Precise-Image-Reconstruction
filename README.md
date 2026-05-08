@@ -7,8 +7,11 @@
 
 <!-- Badges. Generate at https://shields.io/. -->
 <p align="center">
+  <a href="https://github.com/Keegz-dz/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement/commits/main">
+    <img src="https://img.shields.io/github/last-commit/Keegz-dz/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement?style=for-the-badge&color=black&logo=github&logoColor=white" />
+  </a>
   <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/Licence_MIT-black?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
+    <img src="https://img.shields.io/badge/Licence_MIT-EE4C2C?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
   </a>
   <a href="https://opencv.org/">
     <img src="https://img.shields.io/badge/OpenCV_4.11-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
