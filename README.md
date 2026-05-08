@@ -343,7 +343,7 @@ matched-resolution PNGs for direct visual comparison.
 If you use this work in your research, please cite:
 
 ```bibtex
-@software{dsouza2025genetic_ir,
+@software{dsouza2023genetic_ir,
   author       = {Dsouza, Keegan},
   title        = {NL2ECF-SRCNN: Non-Linear Luminance Enhancement and Colour Fusion SRCNN with Vibrancy-Weighted Blending and Kernel Sharpening Refinement},
   year         = {2023},
