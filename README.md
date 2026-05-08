@@ -26,7 +26,7 @@
 
 <!-- Animated demo GIF which conveys the project's value instantly. -->
 <p align="center">
-  <img src="assets/demo_genetic_ir.gif" alt="{{PROJECT_TITLE}} Demo" width="800">
+  <img src="assets/demo_genetic_ir.gif" alt="Demo" width="800">
 </p>
 <p align="center">
   <sub>
@@ -345,7 +345,7 @@ If you use this work in your research, please cite:
 ```bibtex
 @software{dsouza2023genetic_ir,
   author       = {Dsouza, Keegan},
-  title        = {NL2ECF-SRCNN: Non-Linear Luminance Enhancement and Colour Fusion SRCNN with Vibrancy-Weighted Blending and Kernel Sharpening Refinement},
+  title        = {Genetic Optimization Framework for Pixel-Precise Image Reconstruction},
   year         = {2023},
   url          = {https://github.com/Keegz-dz/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction},
   version      = {1.0.0}
