@@ -190,22 +190,8 @@ mutated, preserving elitist solutions across generations.
 
 ### Quick start
 
-The fastest way to run the app requires only Docker:
+Run the application locally with a Python virtual environment:
 
-1. Clone the repository and Navigate to root directory.
-    ```bash
-    git clone https://github.com/Keegz-dz/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction.git
-    cd Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction
-    ```
-2. Run the following command to build the Docker image and start the application:
-    ```bash
-    docker compose up --build
-    ```
-3. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
-
-    ![Project Overview](assets/Streamlit.png)
-
-**Run the application locally with a Python virtual environment**
 1. Create and activate a virtual environment:
     ```bash
     python -m venv .venv
@@ -221,6 +207,8 @@ The fastest way to run the app requires only Docker:
     streamlit run streamlit_main.py
     ```
 4. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
+
+  ![Project Overview](assets/Streamlit.png)
 
 <!-- ============================ STRUCTURE ============================ -->
 ## Project Structure
