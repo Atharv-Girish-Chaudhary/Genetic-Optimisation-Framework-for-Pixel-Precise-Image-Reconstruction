@@ -114,7 +114,7 @@ if uploaded_file is not None:
     else:
         image_for_display = resize_for_display(image)
         with st.expander("Preview Uploaded Image"):
-            st.image(cv2.cvtColor(image_for_display, cv2.COLOR_BGR2RGB), caption="Original Low-Resolution Image", use_container_width=True)
+            st.image(cv2.cvtColor(image_for_display, cv2.COLOR_BGR2RGB), caption="Original Low-Resolution Image", width='stretch')
         
         # Define output folder and checkpoint directory.
         output_folder = "data/processed"
@@ -141,9 +141,8 @@ if uploaded_file is not None:
                     latest_checkpoint = checkpoints[-1]
                     checkpoint_placeholder.image(
                         Image.open(latest_checkpoint),
-                        width=150,
-                        caption=f"Latest Checkpoint: {os.path.basename(latest_checkpoint)}",
-                        use_container_width=False
+                        width='content',
+                        caption=f"Latest Checkpoint: {os.path.basename(latest_checkpoint)}"
                     )
                 # progress_placeholder.text("Processing... (checkpoints will update as they are generated)")
                 time.sleep(2)
@@ -153,7 +152,7 @@ if uploaded_file is not None:
             
             final_image_path = os.path.join(output_folder, "solution.png")
             st.success("Genetic algorithm finished. Final image:")
-            st.image(Image.open(final_image_path), use_container_width=True, caption="Final Generated Image")
+            st.image(Image.open(final_image_path), width='stretch', caption="Final Generated Image")
             
             # --- Display Checkpoint Gallery in a 3-Column Grid ---
             st.markdown("### Checkpoint Gallery")
@@ -166,9 +165,8 @@ if uploaded_file is not None:
                         with cols[j]:
                             st.image(
                                 Image.open(cp),
-                                width=150,
-                                caption=os.path.basename(cp),
-                                use_container_width=False
+                                width='content',
+                                caption=os.path.basename(cp)
                             )
     
     os.remove(tfile.name)

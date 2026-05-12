@@ -332,7 +332,7 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @software{dsouza2023genetic_ir,
-  author       = {Dsouza, Keegan},
+  author       = {Dsouza, Keegan and Chaudhary, Atharv Girish},
   title        = {Genetic Optimization Framework for Pixel-Precise Image Reconstruction},
   year         = {2023},
   url          = {https://github.com/Keegz-dz/Genetic-Optimisation-Framework-for-Pixel-Precise-Image-Reconstruction},
@@ -359,9 +359,16 @@ Maintained by [Keegan Dsouza](https://github.com/Keegz-dz). For bug reports and 
 
 <p align="left">
   <a href="https://www.linkedin.com/in/keegan-dsouza-4019162b9/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/Keegan-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:keegz29.dz@gmail.com">
+    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/atharv-girish-chaudhary-529848378/">
+    <img src="https://img.shields.io/badge/Atharv-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:chaudharyatharvgirish@gmail.com">
     <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
