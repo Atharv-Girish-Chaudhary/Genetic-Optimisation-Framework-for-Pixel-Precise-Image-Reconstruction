@@ -42,7 +42,7 @@ dependencies:
       - narwhals==1.32.0
       - networkx==3.4.2
       - numpy==2.2.4
-      - opencv-python-headless==4.11.0.86
+      - opencv-python==4.11.0.86
       - packaging==24.2
       - pandas==2.2.3
       - pillow==11.1.0
